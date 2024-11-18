@@ -173,9 +173,18 @@ function enviar() {
         //curiosidades:
         case (texto.includes("conte") || texto.includes("fale") || texto.includes("diga")) &&
           (texto.includes("curiosidade") || texto.includes("curiosidades")) &&
-          texto.includes("segunda") && texto.includes("guerra"):
+          texto.includes("unincor"):
           resposta = respostaAleatoria([
-            "Durante a invasão da Normandia, em 6 de junho de 1944 os americanos lançaram milhares de bonecos de borracha com paraquedas! Ao tocar o solo, os “paraquedistas” disparavam espoletas; à noite, o efeito era ainda maior dando a impressão que estavam atirando de verdade."
+            "A UninCor foi fundada em 1965 como Faculdade de Filosofia, Ciências e Letras.",
+            "Em 1975, tornou-se o Instituto Superior de Ciências, Letras e Artes de Três Corações (INCOR).",
+            "Os primeiros cursos começaram em 1968, após o Parecer 263/67.",
+            "Em 1990, foi renomeada Fundação Comunitária Tricordiana de Educação.",
+            "A UninCor foi instituída como universidade em 1998, com sede em Três Corações.",
+            "Possui campi em São Gonçalo do Sapucaí, Pará de Minas, BH e Betim.",
+            "Disponibiliza bolsas e financiamentos como FIES, Prouni e Crédito Pravaler.",
+            "Recebeu o Selo Instituição Socialmente Responsável por suas ações sociais.",
+            "Cursos da UninCor foram premiados com o Selo 3 Estrelas da Editora Abril.",
+            "Os cursos de Pedagogia, Enfermagem e Administração superaram as notas do MEC.",
           ]);
           break;
 
@@ -244,7 +253,7 @@ DicaSala.addEventListener("click", function () {
   enviar()
 })
 DicaCuriosidade.addEventListener("click", function () {
-  barraTexto.value = "Me conte uma curiosidade sobre a segunda guerra mundial";
+  barraTexto.value = "Me conte uma curiosidade sobre a unincor";
   enviar()
 })
 DicaPiada.addEventListener("click", function () {
