@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  background-color: #e0e8f6; /* Cor de fundo principal alterada */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+#barra {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  width: 50%;
+  height: 60px;
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  overflow: none;
+  outline: none;
+  border: none;
+  background-color: #0e414f; /* Alterado para a cor escura da paleta */
+  border-radius: 30px;
+  box-shadow: none;
+}
+
+#enviar {
+  background-color: transparent;
+  border: none;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 73%;
+  top: 90%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  transition-duration: 200ms;
+}
+
+#seta {
+  background-color: transparent;
+  font-size: 25px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+#mensagens {
+  color: white;
+  list-style: none;
+  width: 90%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  max-height: 80%;
+  overflow-y: auto;
+  scrollbar-color: #808080 #1b1b1b;
+}
+
+#mensagens li {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 90px;
+  padding: 20px 20px;
+  background-color: #03624c; /* Cor verde escura da paleta */
+}
+
+#mensagens #mensagem {
+  background-color: #0e414f; /* Outra cor escura da paleta */
+}
+
+#logo {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+#logo #quadradoFundo {
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 200px;
+  height: 70px;
+}
+
+#logo #quadradoFrente {
+  background-color: rgba(255, 255, 255, 0.795);
+  width: 200px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo #quadradoFrente p {
+  background-color: transparent;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Umas coisas novas... */
+#dicas {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  color: white;
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#dicas li {
+  display: flex;
+  background-color: #0e414f; /* Verde claro da paleta */
+  height: 20%;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+#dicas li:hover {
+  transition: 0.2s;
+  background-color: rgba(70, 70, 70, 0.767);
+}
+
+#dicas li span {
+  background-color: transparent;
+  position: absolute;
+  left: 12%;
+  font-size: 20px;
+}
+
+#menu {
+  width: 20%;
+  height: 200px;
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#menu span {
+  margin-top: 2%;
+  margin-left: 2%;
+  cursor: pointer;
+  background-color: #0e414f;
+}
+
+#menu ul {
+  background-color: transparent;
+  list-style: none;
+  margin-top: 20px;
+}
+
+#menu ul li {
+  background-color: transparent;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: solid 1px white;
+  transition-duration: 200ms;
+  background-color: #00df82;
+}
+
+#menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+  transition-duration: 200ms;
+}
+
+#menu ul li span {
+  position: absolute;
+  left: 4%;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+#menuBotao {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03624c; /* Cor verde escura */
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+#menu #limpar {
+  background-color: rgba(133, 11, 11, 0.842);
+}
+
+#menu #limpar span {
+  background-color: transparent;
+}
+
+#pex {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  font-size: 10px;
+}
+
+#DicaSala span {
+  color: rgb(233, 43, 43);
+}
+
+#DicaCuriosidade span {
+  color: rgb(24, 187, 24);
+}
+
+#DicaPiada span {
+  color: rgb(255, 226, 61);
+}
+
+#DicaCalculo span {
+  color: rgb(58, 104, 255);
+}
+
+/* CSS para dispositivos móveis */
+
+@media (max-height: 940px) {
+
+  #barra {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 94%;
+    width: 90%;
+    height: 7%;
+    font-size: 15px;
+    padding-right: 50px;
+  }
+
+  #enviar {
+    left: 88%;
+    top: 94%;
+    width: 25px;
+    height: 25px;
+  }
+
+  #mensagens {
+    width: 90%;
+    height: 60%;
+    top: 58%;
+  }
+
+  #mensagens li {
+    height: 70px;
+    max-height: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #dicas {
+    width: 100%;
+    height: 35%;
+    z-index: 1111;
+    font-size: 10px;
+    top: 50%;
+  }
+
+  #menu {
+    width: 50%;
+    height: 20%;
+    z-index: 1111;
+    margin-left: 10px;
+  }
+
+  #menu ul {
+    position: relative;
+    top: 30%;
+    left: 5%;
+  }
+
+  #menu ul li {
+    height: 25px;
+    font-size: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #menu ul li span {
+    font-size: 12px;
+  }
+
+  #menuBotao {
+    position: absolute;
+    left: -4%;
+    top: 1%;
+  }
+}

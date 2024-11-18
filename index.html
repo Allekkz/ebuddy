@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <title>E-Buddy</title>
+  <script type="text/javascript" src="./index.js" defer=""></script>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" href="Icone-E-buddy.png" sizes="128x128" type="image/png">
+</head>
+
+<body>
+  <p id="pex">Projeto de extensão</p>
+  <input type="text" name="barra" id="barra" placeholder="Digite aqui" autocomplete="off">
+  <button onclick="enviar()" id="enviar"><span class="material-symbols-outlined" id="seta">
+      send
+    </span></button>
+  <ul id="mensagens">
+
+  </ul>
+
+  <!--   <div id="logo">
+      <div id="quadradoFundo">
+        <div id="quadradoFrente">
+          <p>E-Buddy</p>
+        </div>
+      </div>
+    </div> -->
+
+  <ul id="dicas">
+    <li id="DicaSala"><span class="material-symbols-outlined">
+        location_on
+      </span>Quero ajuda para achar uma sala da Unincor</li>
+    <li id="DicaCuriosidade"><span class="material-symbols-outlined">
+        auto_stories
+      </span>Curiosidades sobre a Segunda Guerra</li>
+    <li id="DicaPiada"><span class="material-symbols-outlined">
+        mood
+      </span>Me conte alguma piada</li>
+    <li id="DicaCalculo"><span class="material-symbols-outlined">
+        calculate
+      </span>Preciso de ajuda em alguns cálculos</li>
+  </ul>
+
+  <div id="menu">
+    <span id="menuBotao" class="material-symbols-outlined">
+      lists
+    </span>
+    <ul id="menuItens">
+      <li><span class="material-symbols-outlined">
+          contacts_product
+        </span>Contato</li>
+      <li id="limpar" onclick="limpar()"><span class="material-symbols-outlined">
+          delete_forever
+        </span>Limpar Chat</li>
+    </ul>
+  </div>
+
+
+
+</body>
+
+</html>
